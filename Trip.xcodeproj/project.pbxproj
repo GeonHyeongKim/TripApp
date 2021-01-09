@@ -16,6 +16,7 @@
 		573E15BC25A9EFF600A05C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573E15BA25A9EFF600A05C38 /* LaunchScreen.storyboard */; };
 		573E15C725A9EFF600A05C38 /* TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15C625A9EFF600A05C38 /* TripTests.swift */; };
 		573E15D225A9EFF600A05C38 /* TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15D125A9EFF600A05C38 /* TripUITests.swift */; };
+		573E15E425A9F68D00A05C38 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 573E15E325A9F68D00A05C38 /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		573E15CD25A9EFF600A05C38 /* TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E15D125A9EFF600A05C38 /* TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripUITests.swift; sourceTree = "<group>"; };
 		573E15D325A9EFF600A05C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573E15E325A9F68D00A05C38 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				573E15AC25A9EFF500A05C38 /* AppDelegate.swift */,
 				573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */,
+				573E15E225A9F56900A05C38 /* Resources */,
 				573E15B025A9EFF500A05C38 /* ViewController.swift */,
 				573E15B225A9EFF500A05C38 /* Main.storyboard */,
 				573E15B825A9EFF600A05C38 /* Assets.xcassets */,
@@ -129,6 +132,14 @@
 				573E15D325A9EFF600A05C38 /* Info.plist */,
 			);
 			path = TripUITests;
+			sourceTree = "<group>";
+		};
+		573E15E225A9F56900A05C38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				573E15E325A9F68D00A05C38 /* splash.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573E15E425A9F68D00A05C38 /* splash.png in Resources */,
 				573E15BC25A9EFF600A05C38 /* LaunchScreen.storyboard in Resources */,
 				573E15B925A9EFF600A05C38 /* Assets.xcassets in Resources */,
 				573E15B425A9EFF500A05C38 /* Main.storyboard in Resources */,
