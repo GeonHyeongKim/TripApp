@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		573E15AD25A9EFF500A05C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15AC25A9EFF500A05C38 /* AppDelegate.swift */; };
 		573E15AF25A9EFF500A05C38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */; };
-		573E15B125A9EFF500A05C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15B025A9EFF500A05C38 /* ViewController.swift */; };
+		573E15B125A9EFF500A05C38 /* LoginMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */; };
 		573E15B425A9EFF500A05C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573E15B225A9EFF500A05C38 /* Main.storyboard */; };
 		573E15B725A9EFF500A05C38 /* Trip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 573E15B525A9EFF500A05C38 /* Trip.xcdatamodeld */; };
 		573E15B925A9EFF600A05C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573E15B825A9EFF600A05C38 /* Assets.xcassets */; };
@@ -41,7 +41,7 @@
 		573E15A925A9EFF500A05C38 /* Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573E15AC25A9EFF500A05C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		573E15B025A9EFF500A05C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMainViewController.swift; sourceTree = "<group>"; };
 		573E15B325A9EFF500A05C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573E15B625A9EFF500A05C38 /* Trip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trip.xcdatamodel; sourceTree = "<group>"; };
 		573E15B825A9EFF600A05C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */,
 				573E15EB25AA889600A05C38 /* Extension */,
 				573E15E225A9F56900A05C38 /* Resources */,
-				573E15B025A9EFF500A05C38 /* ViewController.swift */,
+				573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */,
 				573E15B225A9EFF500A05C38 /* Main.storyboard */,
 				573E15BA25A9EFF600A05C38 /* LaunchScreen.storyboard */,
 				573E15B825A9EFF600A05C38 /* Assets.xcassets */,
@@ -286,7 +286,7 @@
 			files = (
 				573E15ED25AA88F000A05C38 /* UIButton.swift in Sources */,
 				573E15B725A9EFF500A05C38 /* Trip.xcdatamodeld in Sources */,
-				573E15B125A9EFF500A05C38 /* ViewController.swift in Sources */,
+				573E15B125A9EFF500A05C38 /* LoginMainViewController.swift in Sources */,
 				573E15AD25A9EFF500A05C38 /* AppDelegate.swift in Sources */,
 				573E15AF25A9EFF500A05C38 /* SceneDelegate.swift in Sources */,
 			);
