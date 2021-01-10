@@ -17,6 +17,7 @@
 		573E15C725A9EFF600A05C38 /* TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15C625A9EFF600A05C38 /* TripTests.swift */; };
 		573E15D225A9EFF600A05C38 /* TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15D125A9EFF600A05C38 /* TripUITests.swift */; };
 		573E15E425A9F68D00A05C38 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 573E15E325A9F68D00A05C38 /* splash.png */; };
+		573E15ED25AA88F000A05C38 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15EC25AA88F000A05C38 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		573E15D125A9EFF600A05C38 /* TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripUITests.swift; sourceTree = "<group>"; };
 		573E15D325A9EFF600A05C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573E15E325A9F68D00A05C38 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		573E15EC25AA88F000A05C38 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +107,12 @@
 			children = (
 				573E15AC25A9EFF500A05C38 /* AppDelegate.swift */,
 				573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */,
+				573E15EB25AA889600A05C38 /* Extension */,
 				573E15E225A9F56900A05C38 /* Resources */,
 				573E15B025A9EFF500A05C38 /* ViewController.swift */,
 				573E15B225A9EFF500A05C38 /* Main.storyboard */,
-				573E15B825A9EFF600A05C38 /* Assets.xcassets */,
 				573E15BA25A9EFF600A05C38 /* LaunchScreen.storyboard */,
+				573E15B825A9EFF600A05C38 /* Assets.xcassets */,
 				573E15BD25A9EFF600A05C38 /* Info.plist */,
 				573E15B525A9EFF500A05C38 /* Trip.xcdatamodeld */,
 			);
@@ -140,6 +143,14 @@
 				573E15E325A9F68D00A05C38 /* splash.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		573E15EB25AA889600A05C38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				573E15EC25AA88F000A05C38 /* UIButton.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573E15ED25AA88F000A05C38 /* UIButton.swift in Sources */,
 				573E15B725A9EFF500A05C38 /* Trip.xcdatamodeld in Sources */,
 				573E15B125A9EFF500A05C38 /* ViewController.swift in Sources */,
 				573E15AD25A9EFF500A05C38 /* AppDelegate.swift in Sources */,
