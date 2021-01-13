@@ -55,6 +55,9 @@
 		573E15D325A9EFF600A05C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573E15E325A9F68D00A05C38 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		573E15EC25AA88F000A05C38 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		576B125B25AE7A6100C1BE2A /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		576B125C25AE7A6100C1BE2A /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
+		576B125D25AE7A6100C1BE2A /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 				573E15AE25A9EFF500A05C38 /* SceneDelegate.swift */,
 				573E15EB25AA889600A05C38 /* Extension */,
 				573E15E225A9F56900A05C38 /* Resources */,
+				576B125A25AE7A4F00C1BE2A /* Font */,
 				573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */,
 				573E15B225A9EFF500A05C38 /* Main.storyboard */,
 				573E15BA25A9EFF600A05C38 /* LaunchScreen.storyboard */,
@@ -151,6 +155,16 @@
 				573E15EC25AA88F000A05C38 /* UIButton.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		576B125A25AE7A4F00C1BE2A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				576B125C25AE7A6100C1BE2A /* NanumGothic.ttf */,
+				576B125D25AE7A6100C1BE2A /* NanumSquareBold.ttf */,
+				576B125B25AE7A6100C1BE2A /* NanumSquareRegular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
