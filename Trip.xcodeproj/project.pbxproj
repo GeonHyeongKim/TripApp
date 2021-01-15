@@ -18,6 +18,10 @@
 		573E15D225A9EFF600A05C38 /* TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15D125A9EFF600A05C38 /* TripUITests.swift */; };
 		573E15E425A9F68D00A05C38 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 573E15E325A9F68D00A05C38 /* splash.png */; };
 		573E15ED25AA88F000A05C38 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E15EC25AA88F000A05C38 /* UIButton.swift */; };
+		576B126E25AEF29A00C1BE2A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B126D25AEF29A00C1BE2A /* LoginViewController.swift */; };
+		576B127325AEF5AC00C1BE2A /* FindPWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B127225AEF5AC00C1BE2A /* FindPWViewController.swift */; };
+		576B127B25AEF6C300C1BE2A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B127A25AEF6C300C1BE2A /* UITextField.swift */; };
+		576B128325AEFE5F00C1BE2A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B128225AEFE5F00C1BE2A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		576B125B25AE7A6100C1BE2A /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
 		576B125C25AE7A6100C1BE2A /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
 		576B125D25AE7A6100C1BE2A /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
+		576B126D25AEF29A00C1BE2A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		576B127225AEF5AC00C1BE2A /* FindPWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPWViewController.swift; sourceTree = "<group>"; };
+		576B127A25AEF6C300C1BE2A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		576B128225AEFE5F00C1BE2A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,7 @@
 				573E15EB25AA889600A05C38 /* Extension */,
 				573E15E225A9F56900A05C38 /* Resources */,
 				576B125A25AE7A4F00C1BE2A /* Font */,
-				573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */,
+				576B126425AEF25A00C1BE2A /* VC */,
 				573E15B225A9EFF500A05C38 /* Main.storyboard */,
 				573E15BA25A9EFF600A05C38 /* LaunchScreen.storyboard */,
 				573E15B825A9EFF600A05C38 /* Assets.xcassets */,
@@ -153,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				573E15EC25AA88F000A05C38 /* UIButton.swift */,
+				576B127A25AEF6C300C1BE2A /* UITextField.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -165,6 +174,17 @@
 				576B125B25AE7A6100C1BE2A /* NanumSquareRegular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		576B126425AEF25A00C1BE2A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				573E15B025A9EFF500A05C38 /* LoginMainViewController.swift */,
+				576B126D25AEF29A00C1BE2A /* LoginViewController.swift */,
+				576B127225AEF5AC00C1BE2A /* FindPWViewController.swift */,
+				576B128225AEFE5F00C1BE2A /* SignUpViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +318,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576B126E25AEF29A00C1BE2A /* LoginViewController.swift in Sources */,
 				573E15ED25AA88F000A05C38 /* UIButton.swift in Sources */,
 				573E15B725A9EFF500A05C38 /* Trip.xcdatamodeld in Sources */,
+				576B127B25AEF6C300C1BE2A /* UITextField.swift in Sources */,
 				573E15B125A9EFF500A05C38 /* LoginMainViewController.swift in Sources */,
 				573E15AD25A9EFF500A05C38 /* AppDelegate.swift in Sources */,
+				576B128325AEFE5F00C1BE2A /* SignUpViewController.swift in Sources */,
 				573E15AF25A9EFF500A05C38 /* SceneDelegate.swift in Sources */,
+				576B127325AEF5AC00C1BE2A /* FindPWViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
