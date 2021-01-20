@@ -27,26 +27,45 @@ class LoginViewController: UIViewController {
         btnOk.layer.cornerRadius = 14
         lblIncorrectUserID.isHidden = true
         lblIncorrectUserPW.isHidden = true
+        txtFieldUserID.autocorrectionType = .no // 알 수 없는 단어를 추천하고 교정
+        txtFieldUserPW.autocorrectionType = .no
+        
+        self.txtFieldUserID.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
+        self.txtFieldUserPW.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
+
+    }
+    
+    func setupCorrect() {
+        self.txtFieldUserID.textColor = .red
+        self.txtFieldUserPW.textColor = .red
+        self.lblIncorrectUserID.isHidden = false
+        self.lblIncorrectUserPW.isHidden = false
+        self.txtFieldUserID.attributedPlaceholder = NSAttributedString(string: "UserID", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
+        self.txtFieldUserPW.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
+    }
+    
+    func setupIncorrect() {
+        self.txtFieldUserID.textColor = .red
+        self.txtFieldUserPW.textColor = .red
+        self.lblIncorrectUserID.isHidden = false
+        self.lblIncorrectUserPW.isHidden = false
+        self.txtFieldUserID.attributedPlaceholder = NSAttributedString(string: "UserID", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
+        self.txtFieldUserPW.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
     }
 
     @IBAction func checkUserInfo(_ sender: Any) {
-        txtFieldUserID.tintColor = UIColor.red
-        txtFieldUserPW.tintColor = UIColor.red
-        txtFieldUserID.autocorrectionType = .no // 알 수 없는 단어를 추천하고 교정
-        txtFieldUserPW.autocorrectionType = .no
-        lblIncorrectUserID.isHidden = false
-        lblIncorrectUserPW.isHidden = false
+        let userId = self.txtFieldUserID.text
+        let userPassword = self.txtFieldUserPW.text
+
+        if userId?.isEmpty == true || userPassword?.isEmpty == true {
+            setupIncorrect()
+        } else {
+
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    //MARK: TextField Event
+    @objc func textFieldDidChange(textField: UITextField) {
+        setupCorrect()
     }
-    */
-
 }

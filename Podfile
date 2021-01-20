@@ -3,10 +3,16 @@
 
 target 'Trip' do
   # Comment the next line if you don't want to use dynamic frameworks
+  # add pods for desired Firebase products
+  # https://firebase.google.com/docs/ios/setup#available-pods
+
   use_frameworks!
 
-pod 'Alamofire', '~> 5.2'
-pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 5.2'
+  pod 'SwiftyJSON'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
   # Pods for Trip
 
   target 'TripTests' do

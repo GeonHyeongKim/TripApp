@@ -23,6 +23,7 @@
 		576B127B25AEF6C300C1BE2A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B127A25AEF6C300C1BE2A /* UITextField.swift */; };
 		576B128325AEFE5F00C1BE2A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B128225AEFE5F00C1BE2A /* SignUpViewController.swift */; };
 		57ABDFDD25B7AC7F00CAC962 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABDFDC25B7AC7F00CAC962 /* UIViewController+Alert.swift */; };
+		57ABDFF525B7B58500CAC962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57ABDFF425B7B58500CAC962 /* GoogleService-Info.plist */; };
 		7F30E42C8D459E0F22604EB6 /* Pods_TripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539796AB4977111512CF2CC7 /* Pods_TripTests.framework */; };
 		8065905CF4DB68CA2698FBAD /* Pods_Trip_TripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54FE16A469A2947977FE009 /* Pods_Trip_TripUITests.framework */; };
 		A0B0347E94F5615B8E6D28E5 /* Pods_Trip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BAD202ED935E0474EA1419 /* Pods_Trip.framework */; };
@@ -72,6 +73,7 @@
 		576B127A25AEF6C300C1BE2A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		576B128225AEFE5F00C1BE2A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		57ABDFDC25B7AC7F00CAC962 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		57ABDFF425B7B58500CAC962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5B1D36CA663D27F99EF24778 /* Pods-Trip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip.debug.xcconfig"; path = "Target Support Files/Pods-Trip/Pods-Trip.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE83B560A76AC1D1F30D164 /* Pods-Trip-TripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip-TripUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trip-TripUITests/Pods-Trip-TripUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95BA60C13203EB7D4FDDE0B4 /* Pods-Trip-TripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip-TripUITests.release.xcconfig"; path = "Target Support Files/Pods-Trip-TripUITests/Pods-Trip-TripUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		573E15E225A9F56900A05C38 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				57ABDFF425B7B58500CAC962 /* GoogleService-Info.plist */,
 				573E15E325A9F68D00A05C38 /* splash.png */,
 			);
 			path = Resources;
@@ -340,6 +343,7 @@
 			files = (
 				573E15E425A9F68D00A05C38 /* splash.png in Resources */,
 				573E15BC25A9EFF600A05C38 /* LaunchScreen.storyboard in Resources */,
+				57ABDFF525B7B58500CAC962 /* GoogleService-Info.plist in Resources */,
 				573E15B925A9EFF600A05C38 /* Assets.xcassets in Resources */,
 				573E15B425A9EFF500A05C38 /* Main.storyboard in Resources */,
 			);
