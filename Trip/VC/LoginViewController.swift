@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class LoginViewController: UIViewController {
 
@@ -19,10 +20,10 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setting()
+        setup()
     }
     
-    func setting() {
+    func setup() {
         btnOk.layer.cornerRadius = 14
         lblIncorrectUserID.isHidden = true
         lblIncorrectUserPW.isHidden = true
@@ -31,6 +32,8 @@ class LoginViewController: UIViewController {
     @IBAction func checkUserInfo(_ sender: Any) {
         txtFieldUserID.tintColor = UIColor.red
         txtFieldUserPW.tintColor = UIColor.red
+        txtFieldUserID.autocorrectionType = .no // 알 수 없는 단어를 추천하고 교정
+        txtFieldUserPW.autocorrectionType = .no
         lblIncorrectUserID.isHidden = false
         lblIncorrectUserPW.isHidden = false
     }
