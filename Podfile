@@ -10,8 +10,10 @@ target 'Trip' do
 
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON'
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
 
   # Pods for Trip
 
