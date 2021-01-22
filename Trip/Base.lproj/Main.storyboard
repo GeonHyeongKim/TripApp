@@ -39,13 +39,13 @@
                                         <rect key="frame" x="0.0" y="129.5" width="414" height="128"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여행기" textAlignment="center" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZF-9t-Con" userLabel="Title">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
                                                 <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="85"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="열심히 일 한 당신 떠나요!" textAlignment="center" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5R-xc-0AE" userLabel="Detail">
-                                                <rect key="frame" x="0.0" y="109.5" width="414" height="19"/>
+                                                <rect key="frame" x="0.0" y="108" width="414" height="18.5"/>
                                                 <fontDescription key="fontDescription" name="NanumGothic" family="NanumGothic" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -130,7 +130,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="본 서비스는 여행기의 내용을 회원끼리 공유하는 서비스 입니다." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sw-Kd-Pgf">
-                                                <rect key="frame" x="48" y="0.0" width="322.5" height="40"/>
+                                                <rect key="frame" x="48" y="0.0" width="335" height="38"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -473,26 +473,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="QLQ-yG-Xv1">
-                                <rect key="frame" x="32" y="190" width="350" height="242"/>
+                                <rect key="frame" x="32" y="190" width="350" height="237.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KW2-fn-HEy">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="54"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="52.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="UserID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9eq-et-h8B">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="24"/>
                                                 <color key="textColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareB" family="NanumSquare" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKn-aX-fhW">
-                                                <rect key="frame" x="0.0" y="33" width="350" height="1"/>
+                                                <rect key="frame" x="0.0" y="32" width="350" height="1"/>
                                                 <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="Ckb-n8-w5D"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="올바른 아이디를 입력하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycN-BO-P76">
-                                                <rect key="frame" x="0.0" y="42" width="350" height="12"/>
+                                                <rect key="frame" x="0.0" y="41" width="350" height="11.5"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="10"/>
                                                 <color key="textColor" red="0.97647058819999999" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -500,23 +500,23 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="zJq-GK-HZn">
-                                        <rect key="frame" x="0.0" y="94" width="350" height="54"/>
+                                        <rect key="frame" x="0.0" y="92.5" width="350" height="52.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-0i-bDs">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="24"/>
                                                 <color key="textColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xg9-GK-g1u">
-                                                <rect key="frame" x="0.0" y="33" width="350" height="1"/>
+                                                <rect key="frame" x="0.0" y="32" width="350" height="1"/>
                                                 <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="hEU-8B-YlR"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="올바른 비밀번호을 입력하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIQ-aJ-E4R">
-                                                <rect key="frame" x="0.0" y="42" width="350" height="12"/>
+                                                <rect key="frame" x="0.0" y="41" width="350" height="11.5"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="10"/>
                                                 <color key="textColor" red="0.97647058819999999" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -524,23 +524,23 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1mr-rV-rTZ">
-                                        <rect key="frame" x="0.0" y="188" width="350" height="54"/>
+                                        <rect key="frame" x="0.0" y="185" width="350" height="52.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PasswordConfir" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SSN-hu-v9S">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="25"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="24"/>
                                                 <color key="textColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chx-o1-Fxm">
-                                                <rect key="frame" x="0.0" y="33" width="350" height="1"/>
+                                                <rect key="frame" x="0.0" y="32" width="350" height="1"/>
                                                 <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1" id="aS1-rj-2Uf"/>
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="올바른 비밀번호을 입력하세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ik5-33-wLu">
-                                                <rect key="frame" x="0.0" y="42" width="350" height="12"/>
+                                                <rect key="frame" x="0.0" y="41" width="350" height="11.5"/>
                                                 <fontDescription key="fontDescription" name="NanumSquareR" family="NanumSquare" pointSize="10"/>
                                                 <color key="textColor" red="0.97647058819999999" green="0.035294117649999998" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -550,7 +550,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gv-Tc-faV">
-                                <rect key="frame" x="32" y="462" width="350" height="47"/>
+                                <rect key="frame" x="32" y="457.5" width="350" height="47"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="dd2-aO-O34"/>
@@ -565,6 +565,9 @@
                                         <integer key="value" value="14"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="register:" destination="4ag-tM-S7C" eventType="touchUpInside" id="hHA-Zd-kB1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DO7-cX-1wi"/>

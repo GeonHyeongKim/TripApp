@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class LoginViewController: UIViewController {
 
@@ -16,8 +17,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var lblIncorrectUserID: UILabel!
     @IBOutlet weak var lblIncorrectUserPW: UILabel!
     
-    var parsedResponse: String = ""
-    var ref: DatabaseReference!
+    var ref: DatabaseReference! // firebase 데이터베이스의 주소가 저장될 변수
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,10 +55,6 @@ class LoginViewController: UIViewController {
     
     func post(_ userId: String, _ userPassword: String) {
         // 1. 전송할 값 준비
-        let apiURL = "api url string"
-        let serverURL = "zanghscoding"
-        let requestURL = "\(serverURL).iptime.org:8000/user/login"
-        
     }
 
     @IBAction func checkUserInfo(_ sender: Any) {

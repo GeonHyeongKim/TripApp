@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
 
     @IBOutlet weak var lblIncorrectUserID: UILabel!
     @IBOutlet weak var lblIncorrectUserPW: UILabel!
     @IBOutlet weak var lblReIncorrectUserPW: UILabel!
+    
+    self.ref = Data.database().reference()
+
+    let itemRef = self.ref.child("list")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +30,10 @@ class SignUpViewController: UIViewController {
         lblReIncorrectUserPW.isHidden = true
     }
     
-
+    @IBAction func register(_ sender: Any) {
+        
+    }
+    
     /*
     // MARK: - Navigation
 
